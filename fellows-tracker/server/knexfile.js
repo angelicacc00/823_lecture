@@ -4,13 +4,13 @@
  * @type { Object.<string, import("knex").Knex.Config> }
  */
 module.exports = {
-
+//
   development: {
     client: 'pg',
     connection: {
       username: 'postgres',
       password: 'postgres',
-      database: 'fellows_tracker_f23'
+      database: 'migration_seeds_practice'
     }
   },
 
